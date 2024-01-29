@@ -4,6 +4,9 @@
 // CHANGE THE FONT FAMILY AT THE END //
 
 import Image from 'next/image'
+import Link from 'next/link';
+
+
 
 export default function Home() {
 
@@ -24,7 +27,7 @@ export default function Home() {
       <div className='bg-construction-bg overflow-auto bg-local h-screen'>
         <div className='backdrop-blur-xl h-screen w-screen'>
           <div className='flex justify-end pt-5'>
-            <a href="/" className='text-right text-gray-300 no-underline pr-10 '>About Us</a>
+            <Link href="/" className='text-right text-gray-300 no-underline pr-10 '>About Us</Link>
           </div>
 
           <div className='pt-32 text-center tracking-wide'>
@@ -44,8 +47,8 @@ export default function Home() {
             </div>
             
             <div className='flex items-center justify-center pt-8 space-x-6'>
-              <img src="link.png" alt="link" onClick={linkpage} />
-              <img src="email.png" alt="email" onClick={emailpage} />
+              <Image src="link.png" alt="link" onClick={linkpage} />
+              <Image src="email.png" alt="email" onClick={emailpage} />
             </div>
           </div>
 
@@ -103,3 +106,5 @@ export default function Home() {
 // }
 
 // export default Page
+
+

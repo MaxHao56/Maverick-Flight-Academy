@@ -1,9 +1,13 @@
 // Header.tsx
+'use client'
 
 import React, { useRef } from 'react';
-import {Link, animateScroll as scroll} from 'react-scroll';
+import Link from 'next/link';
 import '../Header/header.css'
 import { scrollToBottom, scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
+import { Image } from 'react-bootstrap';
+
+
 
 export default function Header() {
 
@@ -50,15 +54,15 @@ export default function Header() {
     <header className="Header_CISD">
       
       <div className='CISD_LOGO'>
-        <a href='/'>
-          <img src="/" alt="CISD" className='CISD_LOGO_img' />
-        </a>
-        <a href='/'>
-          <img src="/" alt="CISD" className='CISD_LOGO_word' />
-        </a>
-        <a href='/'>
-          <img src="/" alt="CISD" className='CISD_name' />
-        </a>
+        <Link href='/'>
+          <Image src="/" alt="CISD" className='CISD_LOGO_img' />
+        </Link>
+        <Link href='/'>
+          <Image src="/" alt="CISD" className='CISD_LOGO_word' />
+        </Link>
+        <Link href='/'>
+          <Image src="/" alt="CISD" className='CISD_name' />
+        </Link>
       </div>  
       
       
@@ -66,11 +70,14 @@ export default function Header() {
       <nav className="Navigation_item">
         
         <ul>
-          <li><a onClick={scrollToTop}>example </a></li>
-          <li><a onClick={scrollStudent}>example</a></li>
-          <li><a onClick={scrollAbout}>example</a></li>
-          {/* <li><a onClick={scrollToBottom}>活动预告</a></li> */}
-          <li><a onClick={scrollToBottom}>example</a></li>
+          {/* <li><Link  href='' onClick={scrollToTop}>example </Link></li>
+          <li><Link href='' onClick={scrollStudent}>example</Link></li>
+          <li><Link href='' onClick={scrollAbout}>example</Link></li>
+          <li><Link href='' onClick={scrollToBottom}>example</Link></li> */}
+          <li><Link  href='/' >example </Link></li>
+          <li><Link href='/' >example</Link></li>
+          <li><Link href='/' >example</Link></li>
+          <li><Link href='/' >example</Link></li>
 
         </ul>
       </nav>

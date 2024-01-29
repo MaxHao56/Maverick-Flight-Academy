@@ -2,7 +2,9 @@
 
 import React from 'react';
 import Link from 'next/link';
-import '../Footer/footers.css'
+import '../Footer/footers.css';
+import { Image } from 'react-bootstrap';
+
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,7 +18,7 @@ export default function Footer() {
         <div className="row">
           <div className='footer-col'>
             <Link href="/">
-              <img className='cs-img' src="" alt="CISD-logo" />
+              <Image className='cs-img' src="" alt="CISD-logo" />
             </Link>
           </div>
 

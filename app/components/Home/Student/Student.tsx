@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react';
+import { Image } from 'react-bootstrap';
 
 import './student.css';
 
@@ -24,8 +25,8 @@ const About = () => {
           onMouseEnter={() => setHovered1(true)}
           onMouseLeave={() => setHovered1(false)}
         >
-          <img src="/eat.jpg" alt="Image 1" className={hovered1 ? 'hidden' : ''} />
-          <img src="/c.jpg" alt="Hover Image 1" className={hovered1 ? '' : 'hidden'} />
+          <Image src="/eat.jpg" alt="Image 1" className={hovered1 ? 'hidden' : ''} />
+          <Image src="/c.jpg" alt="Hover Image 1" className={hovered1 ? '' : 'hidden'} />
           <div className='about_text'></div>
         </div>
 
@@ -34,8 +35,8 @@ const About = () => {
           onMouseEnter={() => setHovered2(true)}
           onMouseLeave={() => setHovered2(false)}
         >
-          <img src="/review.jpg" alt="Image 2" className={hovered2 ? 'hidden' : ''} />
-          <img src="/i.jpg" alt="Hover Image 2" className={hovered2 ? '' : 'hidden'} />
+          <Image src="/review.jpg" alt="Image 2" className={hovered2 ? 'hidden' : ''} />
+          <Image src="/i.jpg" alt="Hover Image 2" className={hovered2 ? '' : 'hidden'} />
           <div className='about_text'></div>
         </div>
 
@@ -44,8 +45,8 @@ const About = () => {
           onMouseEnter={() => setHovered3(true)}
           onMouseLeave={() => setHovered3(false)}
         >
-          <img src="/school.jpg" alt="Image 3" className={hovered3 ? 'hidden' : ''} />
-          <img src="/s.jpg" alt="Hover Image 3" className={hovered3 ? '' : 'hidden'} />
+          <Image src="/school.jpg" alt="Image 3" className={hovered3 ? 'hidden' : ''} />
+          <Image src="/s.jpg" alt="Hover Image 3" className={hovered3 ? '' : 'hidden'} />
           <div className='about_text'></div>
         </div>
 
@@ -54,8 +55,8 @@ const About = () => {
           onMouseEnter={() => setHovered4(true)}
           onMouseLeave={() => setHovered4(false)}
         >
-          <img src="/contact.jpg" alt="Image 4" className={hovered4 ? 'hidden' : ''} />
-          <img src="/d.jpg" alt="Hover Image 4" className={hovered4 ? '' : 'hidden'} />
+          <Image src="/contact.jpg" alt="Image 4" className={hovered4 ? 'hidden' : ''} />
+          <Image src="/d.jpg" alt="Hover Image 4" className={hovered4 ? '' : 'hidden'} />
           <div className='about_text'></div>
         </div>
       </div>

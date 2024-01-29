@@ -5,6 +5,7 @@ import React from 'react';
 import './about.css'
 import { useNavigate } from 'react-router-dom';
 import Link from 'next/link';
+import { Image } from 'react-bootstrap';
 
 const About = () => {
 
@@ -19,7 +20,7 @@ const About = () => {
       <div className='application_lower_container'>
         <div className='application_left_lower_container'>
           <Link href='/construction'>
-            <img src='/c.jpg' alt='Past Events'  />
+            <Image src='/c.jpg' alt='Past Events'  />
           </Link>
           <p className='section_header'>example</p>
           <div className='section_paragraph'>example</div>
@@ -28,7 +29,7 @@ const About = () => {
 
         <div className='application_center_lower_container'>
           <Link href='/construction'>
-            <img src='/s.jpg' alt='Members'  />
+            <Image src='/s.jpg' alt='Members'  />
           </Link>
           <div className='section_header'>example</div>
           <div className='section_paragraph'>example</div>
@@ -37,7 +38,7 @@ const About = () => {
 
         <div className='application_right_lower_container'>
           <Link href='/construction'>
-            <img src='/d.jpg' alt='Application' />
+            <Image src='/d.jpg' alt='Application' />
           </Link>
           <div className='section_header'>example</div>
           <div className='section_paragraph'>example</div>

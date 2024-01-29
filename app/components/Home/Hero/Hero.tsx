@@ -3,6 +3,7 @@
 
 import React, { useEffect, useState } from 'react';
 import './hero.css'
+import { Image } from 'react-bootstrap';
 
 type Slide = {
   src: string;
@@ -64,7 +65,7 @@ const Hero: React.FC = () => {
       <div className='banner_container'>
         <div className='imgbox'>
           {slides.map((slide, index) => (
-            <img
+            <Image
               key={slide.alt}
               className={`img ${index === currentIndex ? 'cr' : ''}`}
               src={`/${slide.src}`}
@@ -76,7 +77,7 @@ const Hero: React.FC = () => {
 
 
         {/* 左箭头按钮 */}
-        <img
+        <Image
           className="change pre"
           src="icon_pre.svg"
           alt="Previous"
@@ -84,7 +85,7 @@ const Hero: React.FC = () => {
         />
 
         {/* 右箭头按钮 */}
-        <img
+        <Image
           className="change next"
           src="icon_next.svg"
           alt="Next"
