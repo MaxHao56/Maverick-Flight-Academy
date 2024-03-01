@@ -28,8 +28,8 @@ const About = () => {
           onMouseLeave={() => setHovered1(false)}
         >
           <Link href={"https://drive.google.com/file/d/1mn0i4ALAWf5xcI3oDH9kvLuue_zSCiQ1/view?usp=drive_link"}>
-          <Image src="/A.png" alt="Report" className={hovered1 ? 'hidden' : ''} />
-          <Image src="/report.png" alt="Report" className={hovered1 ? '' : 'hidden'} />
+          <Image src="A.png" alt="Report" className={hovered1 ? 'hidden' : ''} />
+          <Image src="report.png" alt="Report" className={hovered1 ? '' : 'hidden'} />
           </Link>
           <div className='about_text'></div>
         </div>
@@ -40,8 +40,8 @@ const About = () => {
           onMouseLeave={() => setHovered2(false)}
         >
           <Link href={"https://www.youtube.com/watch?v=af_zM-ovKcY"}>
-          <Image src="/1.png" alt="presentation" className={hovered2 ? 'hidden' : ''} />
-          <Image src="/presentation.png" alt="Presentation" className={hovered2 ? '' : 'hidden'} />
+          <Image src="1.png" alt="presentation" className={hovered2 ? 'hidden' : ''} />
+          <Image src="presentation.png" alt="Presentation" className={hovered2 ? '' : 'hidden'} />
           </Link>
           <div className='about_text'></div>
         </div>

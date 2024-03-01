@@ -55,14 +55,15 @@ export default function Header() {
       
       <div className='CISD_LOGO'>
         <Link href='/'>
-          <Image src="/" alt="CISD" className='CISD_LOGO_img' />
+          <Image src="/HeaderImages/f15.png" alt="CISD" className='CISD_LOGO_img' />
         </Link>
         <Link href='/'>
-          <Image src="/" alt="CISD" className='CISD_LOGO_word' />
+          <Image src="/HeaderImages/logo.png" alt="CISD" className='CISD_LOGO_word' />
         </Link>
+        {/* 
         <Link href='/'>
           <Image src="/" alt="CISD" className='CISD_name' />
-        </Link>
+        </Link> */}
       </div>  
       
       
@@ -70,14 +71,9 @@ export default function Header() {
       <nav className="Navigation_item">
         
         <ul>
-          {/* <li><Link  href='' onClick={scrollToTop}>example </Link></li>
-          <li><Link href='' onClick={scrollStudent}>example</Link></li>
-          <li><Link href='' onClick={scrollAbout}>example</Link></li>
-          <li><Link href='' onClick={scrollToBottom}>example</Link></li> */}
-          <li><Link  href='/' >example </Link></li>
-          <li><Link href='/' >example</Link></li>
-          <li><Link href='/' >example</Link></li>
-          <li><Link href='/' >example</Link></li>
+          <li><Link  href='/' >Assignments</Link></li>
+          <li><Link href='/' >Members</Link></li>
+          <li><Link href='/' >About</Link></li>
 
         </ul>
       </nav>

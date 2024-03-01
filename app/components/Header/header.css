@@ -19,19 +19,18 @@
   .CISD_LOGO {
      /* Adjust the size as needed width: 600px;*/
     align-items: center;
-    display:flex
+    display:flex;
   }
 
   .CISD_LOGO_word{
     margin-left: 20px;
-    width: 100px;
-    
+    width: 400px;
 
   }
 
   .CISD_LOGO_img{
     margin-left: 40px; 
-    width: 60px;
+    width: 40px;
     cursor: pointer;
 
   }

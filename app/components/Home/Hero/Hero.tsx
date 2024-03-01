@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import './hero.css'
 import { Image } from 'react-bootstrap';
 
+
 type Slide = {
   src: string;
   alt: string;
@@ -14,15 +15,14 @@ const Hero: React.FC = () => {
   // State to track the current index of the displayed image
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // 自动轮播的时间间隔（毫秒）
+
   const autoPlayInterval = 12000;
 
   // Array of slides with image source and alt text
   const slides = [
-    { src: '', alt: 'Hero image' },
-    { src: '', alt: 'Image 1' },
-    { src: '', alt: 'Image 2' },
-    { src: '', alt: 'Image 3' },
+    { src: 'HeroImages/image1.jpeg', alt: 'Hero image' },
+    { src: 'HeroImages/image2.jpeg', alt: 'Hero image' },
+    { src: 'HeroImages/image3.jpeg', alt: 'Hero image' },
   ];
 
   
