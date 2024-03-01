@@ -48,7 +48,7 @@ const About = () => {
       <div className='application_lower_container'>
         <div className='application_left_lower_container'>
           <Link href='/construction'>
-            <Image src='/GroupImages/ziqing.png' alt='Past Events'  />
+            <Image src='GroupImages/ziqing.png' alt='Past Events'  />
           </Link>
           <p className='section_header'>Ziqing Wang</p>
           <div className='section_paragraph'>Member</div>
