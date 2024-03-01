@@ -55,10 +55,10 @@ export default function Header() {
       
       <div className='CISD_LOGO'>
         <Link href='/'>
-          <Image src="/HeaderImages/f15.png" alt="CISD" className='CISD_LOGO_img' />
+          <Image src="HeaderImages/f15.png" alt="CISD" className='CISD_LOGO_img' />
         </Link>
         <Link href='/'>
-          <Image src="/HeaderImages/logo.png" alt="CISD" className='CISD_LOGO_word' />
+          <Image src="HeaderImages/logo.png" alt="CISD" className='CISD_LOGO_word' />
         </Link>
         {/* 
         <Link href='/'>

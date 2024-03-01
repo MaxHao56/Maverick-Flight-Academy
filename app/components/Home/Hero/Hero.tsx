@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
             <Image
               key={slide.alt}
               className={`img ${index === currentIndex ? 'cr' : ''}`}
-              src={`/${slide.src}`}
+              src={`${slide.src}`}
               alt={slide.alt}
               onLoad={() => console.log(`Image ${index} has been loaded`)}
             />
