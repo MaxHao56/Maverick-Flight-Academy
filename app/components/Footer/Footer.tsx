@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
 
           <div className='footer-col'>
-            <p className='copyright'>&copy; 2023 By Team56Tech.</p>
+            <p className='copyright'>&copy; 2024 By Group 2 322 (Maverick Flight Academy).</p>
           </div>
         </div>
       </div>
