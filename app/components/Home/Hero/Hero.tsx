@@ -21,8 +21,8 @@ const Hero: React.FC = () => {
   // Array of slides with image source and alt text
   const slides = [
     { src: 'HeroImages/image1.jpeg', alt: 'Hero image' },
+    { src: 'HeroImages/image4.png', alt: 'Hero image' },
     { src: 'HeroImages/image2.jpeg', alt: 'Hero image' },
-    { src: 'HeroImages/image3.jpeg', alt: 'Hero image' },
   ];
 
   

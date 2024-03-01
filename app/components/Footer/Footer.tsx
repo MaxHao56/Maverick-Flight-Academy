@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="row">
           <div className='footer-col'>
             <Link href="/">
-              <Image className='cs-img' src="" alt="CISD-logo" />
+              <Image className='cs-img' src="HeaderImages/logo.png" alt="CISD-logo" />
             </Link>
           </div>
 
