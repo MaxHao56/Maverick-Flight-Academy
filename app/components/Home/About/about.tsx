@@ -24,7 +24,7 @@ const About = () => {
           </Link>
           <p className='section_header'>example</p>
           <div className='section_paragraph'>example</div>
-          {/* <button className='left_button'>入团申请提交</button> */}
+
         </div>
 
         <div className='application_center_lower_container'>
@@ -33,7 +33,7 @@ const About = () => {
           </Link>
           <div className='section_header'>example</div>
           <div className='section_paragraph'>example</div>
-          {/* <button className='left_button'>button</button> */}
+
         </div>
 
         <div className='application_right_lower_container'>
@@ -42,7 +42,7 @@ const About = () => {
           </Link>
           <div className='section_header'>example</div>
           <div className='section_paragraph'>example</div>
-          {/* <button className='right_button'>活动预告</button> */}
+
         </div>
       </div>
     </div>
