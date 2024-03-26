@@ -7,12 +7,22 @@ const Event = () => {
     <div className='event_outer_container'>
       <div className='event_inner_container'>
         <div className='event_content'>
-          <Image src='/eat.jpg' alt='Event Image' className='event_image' />
+          <Image src='FGLogo.png' alt='Event Image' className='event_image' />
           <div className='event_text'>
-            <h1>example</h1>
-            <p>example,example<br />
-            example</p>
-            <button>example</button>
+            <h1>About Flight Gear</h1>
+            <p>
+              FlightGear is an open-source flight simulator project, offering a highly realistic flight 
+              simulation experience. Developed by a global community of enthusiasts, it provides users with
+              the opportunity to experience the thrill of flying various aircraft types in diverse environments. 
+              From commercial airliners to small single-engine planes, FlightGear offers a wide range of aircraft models 
+              to choose from. With its advanced physics engine and detailed scenery, users can enjoy a lifelike simulation of 
+              flying, complete with accurate weather conditions and dynamic day-night cycles. Whether you're a seasoned pilot or an aviation enthusiast, 
+              FlightGear provides an immersive platform to explore the skies and experience the joy of flight from the 
+              comfort of your own computer.<br></br>&nbsp;</p>
+
+            <button><a href="https://wiki.flightgear.org/FlightGear_manual" target="_blank">
+              FG Documentation
+            </a></button>
           </div>
         </div>
       </div>

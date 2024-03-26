@@ -11,26 +11,26 @@ import { Image } from 'react-bootstrap';
 
 export default function Header() {
 
-  const scrollToTop = () =>{
+  const scrollToTop = () => {
     window.scrollTo({
-      top : 0,
+      top: 0,
       behavior: 'smooth'
     });
   };
 
-  const scrollStudent = () =>{
+  const scrollStudent = () => {
     const targetPostion = 415;
     window.scrollTo({
-      top : targetPostion,
+      top: targetPostion,
       behavior: 'smooth'
     });
   };
 
-  const scrollAbout = () =>{
-    const targetPostion3 = 1100
+  const scrollAbout = () => {
+    const targetPostion3 = 1600
     window.scroll({
-      top:targetPostion3,
-      behavior:'smooth'
+      top: targetPostion3,
+      behavior: 'smooth'
     })
   }
 
@@ -42,17 +42,17 @@ export default function Header() {
   }
 
 
-  const scrollsponsor= () =>{
-    const targetPostion3 = 1800
+  const scrollsponsor = () => {
+    const targetPostion3 = 3000
     window.scroll({
-      top:targetPostion3,
-      behavior:'smooth'
+      top: targetPostion3,
+      behavior: 'smooth'
     })
   }
   return (
 
     <header className="Header_CISD">
-      
+
       <div className='CISD_LOGO'>
         <Link href='/'>
           <Image src="HeaderImages/f15.png" alt="CISD" className='CISD_LOGO_img' />
@@ -64,20 +64,18 @@ export default function Header() {
         <Link href='/'>
           <Image src="/" alt="CISD" className='CISD_name' />
         </Link> */}
-      </div>  
-      
-      
-        
-      <nav className="Navigation_item">
-        
-        <ul>
-          <li><Link  href='/' >Assignments</Link></li>
-          <li><Link href='/' >Members</Link></li>
-          <li><Link href='/' >About</Link></li>
+      </div>
 
+
+
+      <nav className="Navigation_item">
+        <ul>
+          <li><a href="#" onClick={scrollStudent}>Assignments</a></li>
+          <li><a href="#" onClick={scrollAbout}>Members</a></li>
+          <li><a href="#" onClick={scrollsponsor}>About</a></li>
         </ul>
       </nav>
-    
+
     </header>
 
 

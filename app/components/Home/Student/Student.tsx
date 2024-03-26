@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <div className='about_outer_container'>
-      <div className='about_header'>Project A1</div>
+      <div className='about_header'>Project A1: Conceptual Architecture</div>
       <div className='about_paragraph'>
       </div>
       <div className='about_gallery'>
@@ -37,8 +37,6 @@ const About = () => {
 
         <div
           className='image-container'
-          onMouseEnter={() => setHovered2(true)}
-          onMouseLeave={() => setHovered2(false)}
         >
           <Link href={"https://www.youtube.com/watch?v=af_zM-ovKcY"}>
           <h1 className='titles_7'>Pres. Video</h1>
@@ -62,7 +60,50 @@ const About = () => {
         </div>
 
       </div>
-      
+
+      <div className='about_header'>Project A2: Concrete Architecture</div>
+      <div className='about_paragraph'>
+      </div>
+      <div className='about_gallery'>
+        <div
+          className='image-container'
+          onMouseEnter={() => setHovered3(true)}
+          onMouseLeave={() => setHovered3(false)}
+        >
+          <Link href={"https://drive.google.com/file/d/1IUhYVZxs6lOTfomaMGkR8uV1p_JgLjlj/view?usp=share_link"}>
+            <h1 className='titles_7'>Report</h1>
+
+          <Image src="A.png" alt="Report" className={hovered3 ? 'hidden' : ''} />
+          <Image src="report.png" alt="Report" className={hovered3 ? '' : 'hidden'} />
+          </Link>
+          <div className='about_text'></div>
+        </div>
+
+        <div
+          className='image-container'
+        >
+          <Link href={"https://www.youtube.com/watch?v=M5GfdniMjFI"}>
+          <h1 className='titles_7'>Pres. Video</h1>
+          <Image src="pres2.png" alt="presentation" className={hovered2 ? 'hidden' : ''} />
+          <Image src="pres2.png" alt="Presentation" className={hovered2 ? '' : 'hidden'} />
+          </Link>
+          <div className='about_text'></div>
+        </div>
+
+        <div
+          className='image-container'
+          onMouseEnter={() => setHovered4(true)}
+          onMouseLeave={() => setHovered4(false)}
+        >
+          <Link href={"https://drive.google.com/file/d/1Z52D6GmuL5HGwR6aJ4bPOoB7hgXmv0mM/view?usp=share_link"}>
+          <h1 className='titles_7'>Pres. Slides</h1>
+          <Image src="2.png" alt="presentation" className={hovered4 ? 'hidden' : ''} />
+          <Image src="pres2.png" alt="Presentation" className={hovered4 ? '' : 'hidden'} />
+          </Link>
+          <div className='about_text'></div>
+        </div>
+
+      </div>
     </div>
   );
 };

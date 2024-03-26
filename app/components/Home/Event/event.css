@@ -4,10 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
 
 .event_inner_container {
-  background-color: #09184f;
+  background-color: #9ea3b5;
   display: flex;
   align-items: center;
   padding: 20px;
