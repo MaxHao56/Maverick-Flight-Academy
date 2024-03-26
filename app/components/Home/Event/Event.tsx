@@ -18,7 +18,7 @@ const Event = () => {
               to choose from. With its advanced physics engine and detailed scenery, users can enjoy a lifelike simulation of 
               flying, complete with accurate weather conditions and dynamic day-night cycles. Whether you're a seasoned pilot or an aviation enthusiast, 
               FlightGear provides an immersive platform to explore the skies and experience the joy of flight from the 
-              comfort of your own computer.<br></br>&nbsp;</p>
+              comfort of your own computer.</p>
 
             <button><a href="https://wiki.flightgear.org/FlightGear_manual" target="_blank">
               FG Documentation
