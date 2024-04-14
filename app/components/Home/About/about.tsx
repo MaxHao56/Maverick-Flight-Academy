@@ -19,27 +19,21 @@ const About = () => {
 
       <div className='application_lower_container'>
         <div className='application_left_lower_container'>
-          <Link href='/construction'>
-            <Image src='GroupImages/max.jpg' alt='Past Events'  />
-          </Link>
+          <Image src='GroupImages/max.jpg' alt='Past Events' />
           <p className='section_header'>Max Hao</p>
           <div className='section_paragraph'>Group Leader</div>
 
         </div>
 
         <div className='application_center_lower_container'>
-          <Link href='/construction'>
-            <Image src='GroupImages/dharsan.jpeg' alt='Members'  />
-          </Link>
+          <Image src='GroupImages/dharsan.jpeg' alt='Members' />
           <div className='section_header'>Dharsan Ravindran</div>
           <div className='section_paragraph'>Presenter</div>
 
         </div>
 
         <div className='application_right_lower_container'>
-          <Link href='/construction'>
-            <Image src='GroupImages/nick.jpeg' alt='Application' />
-          </Link>
+          <Image src='GroupImages/nick.jpeg' alt='Application' />
           <div className='section_header'>Nicholas Jano</div>
           <div className='section_paragraph'>Presenter</div>
 
@@ -47,27 +41,21 @@ const About = () => {
       </div>
       <div className='application_lower_container'>
         <div className='application_left_lower_container'>
-          <Link href='/construction'>
-            <Image src='GroupImages/ziqing.png' alt='Past Events'  />
-          </Link>
+          <Image src='GroupImages/ziqing.png' alt='Past Events' />
           <p className='section_header'>Ziqing Wang</p>
           <div className='section_paragraph'>Member</div>
 
         </div>
 
         <div className='application_center_lower_container'>
-          <Link href='/construction'>
-            <Image src='GroupImages/zhang.jpg' alt='Members'  />
-          </Link>
+          <Image src='GroupImages/zhang.jpg' alt='Members' />
           <div className='section_header'>Zhang Haonan</div>
           <div className='section_paragraph'>Member</div>
 
         </div>
 
         <div className='application_right_lower_container'>
-          <Link href='/construction'>
-            <Image src='GroupImages/lu.jpg' alt='Application' />
-          </Link>
+          <Image src='GroupImages/lu.jpg' alt='Application' />
           <div className='section_header'>Lu Zihan</div>
           <div className='section_paragraph'>Member</div>
 

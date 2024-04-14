@@ -14,6 +14,8 @@ const About = () => {
   const [hovered2, setHovered2] = useState(false);
   const [hovered3, setHovered3] = useState(false);
   const [hovered4, setHovered4] = useState(false);
+  const [hovered5, setHovered5] = useState(false);
+  const [hovered6, setHovered6] = useState(false);
 
   return (
     <div className='about_outer_container'>
@@ -104,6 +106,53 @@ const About = () => {
         </div>
 
       </div>
+
+      <div className='about_header'>Project A3: Architectural Enhancement</div>
+      <div className='about_paragraph'>
+      </div>
+      <div className='about_gallery'>
+        <div
+          className='image-container'
+          onMouseEnter={() => setHovered5(true)}
+          onMouseLeave={() => setHovered5(false)}
+        >
+          <Link href={"https://drive.google.com/file/d/1KoyEmL-IwoxGoNJjxOMrR9PyJ6Bmkv-Y/view?usp=share_link"}>
+            <h1 className='titles_7'>Report</h1>
+
+          <Image src="A.png" alt="Report" className={hovered5 ? 'hidden' : ''} />
+          <Image src="report2.png" alt="Report" className={hovered5 ? '' : 'hidden'} />
+          </Link>
+          <div className='about_text'></div>
+        </div>
+
+        <div
+          className='image-container'
+        >
+          <Link href={"https://www.youtube.com/watch?v=9D8tGTAbEYA"}>
+          <h1 className='titles_7'>Pres. Video</h1>
+          <Image src="pres3.png" alt="presentation" className={hovered2 ? 'hidden' : ''} />
+          <Image src="pres3.png" alt="Presentation" className={hovered2 ? '' : 'hidden'} />
+          </Link>
+          <div className='about_text'></div>
+        </div>
+
+        <div
+          className='image-container'
+          onMouseEnter={() => setHovered6(true)}
+          onMouseLeave={() => setHovered6(false)}
+        >
+          <Link href={"https://drive.google.com/file/d/1wmqn4WDFAmPWKeXSXAX4nZHEIxNergkH/view?usp=share_link"}>
+          <h1 className='titles_7'>Pres. Slides</h1>
+          <Image src="3.png" alt="presentation" className={hovered6 ? 'hidden' : ''} />
+          <Image src="pres3.png" alt="Presentation" className={hovered6 ? '' : 'hidden'} />
+          </Link>
+          <div className='about_text'></div>
+        </div>
+
+      </div>
+
+
+
     </div>
   );
 };
